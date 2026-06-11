@@ -1,3 +1,5 @@
+package stack;
+
 /**
  * You are given an integer array nums of length n and an integer k.
  *
@@ -70,6 +72,7 @@ public class firstStableIndex {
     }
     int max(int[] arr){
         int x=0;
+
         for(int i=0;i<arr.length;i++)
             x = x>arr[i]?x:arr[i];
         //  System.out.print(x+" ");

@@ -28,9 +28,12 @@
  */
 package dynamicProgramming;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 public class GraphCentre {
   public int findCenter(int[][] edges) {
-            int centre=0;
+      ConcurrentHashMap chmp = new ConcurrentHashMap();
+      int centre=0;
             if(edges[0][0]==edges[1][0]|| edges[0][0]==edges[1][1]){
                 centre = edges[0][0];
             }

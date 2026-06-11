@@ -1,9 +1,11 @@
+package stack;
+
 /**
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
  *
- * Implement the MinStack class:
+ * Implement the stack.MinStack class:
  *
- * MinStack() initializes the stack object.
+ * stack.MinStack() initializes the stack object.
  * void push(int val) pushes the element val onto the stack.
  * void pop() removes the element on the top of the stack.
  * int top() gets the top element of the stack.
@@ -15,7 +17,7 @@
  * Example 1:
  *
  * Input
- * ["MinStack","push","push","push","getMin","pop","top","getMin"]
+ * ["stack.MinStack","push","push","push","getMin","pop","top","getMin"]
  * [[],[-2],[0],[-3],[],[],[],[]]
  *
  * Output
@@ -60,8 +62,8 @@ class MinStack {
 }
 
 /**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
+ * Your stack.MinStack object will be instantiated and called as such:
+ * stack.MinStack obj = new stack.MinStack();
  * obj.push(val);
  * obj.pop();
  * int param_3 = obj.top();
